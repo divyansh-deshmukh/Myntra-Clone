@@ -5,9 +5,12 @@
 }
 
 header{
+    position:fixed;
+    top:0px;
     display: flex;
     background-color: #ffffff;
     height: 80px;
+    width:100%;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #696e79;
@@ -89,7 +92,7 @@ header{
     width: 100%;
 }
 .banner_container{
-    margin: 25px 0 115px 0;
+    margin: 100px 0 115px 0;
 }
 
 .category_head{
